@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import SewingProduction from '@/views/SewingProduction.vue';
+import DailyInquery from '@/views/DailyInquery.vue';
 
 const routes = [
   {
@@ -9,9 +9,9 @@ const routes = [
     component: Home
   },
   {
-    path: "/sewing-production",
-    name: "SewingProduction",
-    component: SewingProduction
+    path: "/daily-inquery",
+    name: "DailyInquery",
+    component: DailyInquery
   },
   {
     path: "/about",

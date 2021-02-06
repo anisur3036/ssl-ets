@@ -11,7 +11,7 @@
         v-for="(item, index) in list.sublist"
         :key="index"
       >
-        <router-link to="/sewing-production">{{ item }}</router-link>
+        <router-link to="/daily-inquery">{{ item }}</router-link>
       </li>
     </ul>
   </transition>
