@@ -7,7 +7,7 @@
   >
     <ul v-show="list.open" class="list-item">
       <li
-        class="p-2 text-gray-400 bg-gray-600 border-t border-gray-700 sub-items hover:text-gray-500 hover:bd-gray-300"
+        class="p-2 text-gray-800 bg-white border-t border-gray-300 sub-items hover:text-gray-800 hover:bd-gray-300"
         v-for="(item, index) in list.sublist"
         :key="index"
       >

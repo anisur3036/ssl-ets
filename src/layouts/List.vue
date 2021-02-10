@@ -1,7 +1,7 @@
 <template>
-  <ul class="overflow-hidden bg-gray-800">
+  <ul class="overflow-hidden bg-gray-200">
     <li
-      class="relative text-gray-400 border-t border-gray-600 cursor-pointer"
+      class="relative text-gray-800 border-t border-gray-400 cursor-pointer"
       v-for="(item, index) in list"
       :key="'item' + index"
     >

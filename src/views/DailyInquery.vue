@@ -1,6 +1,6 @@
 <template>
   <app-layout>
-    <div class="flex flex-col">
+    <div class="flex flex-col w-full bg-white">
       <InqueryForm />
       <div class="p-3 overflow-y-scroll"></div>
     </div>
